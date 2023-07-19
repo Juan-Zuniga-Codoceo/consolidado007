@@ -43,6 +43,7 @@ export default {
       routes: [
         { icon: 'mdi-home', title: 'Home', name: 'home' },
         { icon: 'mdi-cog', title: 'Administración', name: 'admin' },
+        { icon: 'mdi-pencil', title: 'Editar Curso', name: 'edit-course' },
       ],
     };
   },
@@ -75,3 +76,4 @@ export default {
   padding: 16px;
 }
 </style>
+

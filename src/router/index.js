@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '@/views/Home.vue';
 import Admin from '@/views/Admin.vue';
 import EditCourse from '@/views/EditCourse.vue';
+import NotFound from '@/views/NotFound.vue'
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,11 @@ const routes = [
     name: 'edit-course',
     component: EditCourse,
     props: true,
+  },
+  {
+    path:'*',
+    name:'NotFound',
+    component:NotFound,
   },
 ];
 
